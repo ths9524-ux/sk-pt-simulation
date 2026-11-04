@@ -19,7 +19,7 @@ client = OpenAI(
 )
 
 # Groq에서 가장 추천하는 안정적인 한국어 추론 모델
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "qwen/qwen3.8-27b"
 
 # 3. 전역 스타일링
 st.markdown("""
